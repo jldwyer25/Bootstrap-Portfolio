@@ -1,9 +1,9 @@
-/* #name {
+#name {
     background : none;
     font-size: 24px;
     margin-right: 5%;
     width:45%;
-    margin-left: 221px;
+    margin-left: 105px;
     max-width: 240px;
     background-color: cadetblue;
     text-align: left;
@@ -12,17 +12,19 @@
     margin-bottom: 0%;
     color: white;
     font-weight: 700;
-} */
+}
+
 
 #topnav{
-    width: 100%;
+    margin: 15%;
+    clear: both;
 }
 
 .navbar{
-    color: grey;
+    background-color: #ffffff;
     height: 85px;
     width: 100%;
-    position: absolute;
+    min-width: 123%;
 }
 
 nav{
@@ -57,8 +59,13 @@ nav{
     background-color: #ffffff;
     margin-left: 120px;
     border: solid 1px #cccccc;
-    margin-top: 15px;
+    padding-top: 15px;
   }
+
+.container-head{
+    max-width: 1260px;
+    clear: both;
+}
 
   .bodytext{
     max-width: 960px;
