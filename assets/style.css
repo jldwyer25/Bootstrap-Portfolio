@@ -1,34 +1,38 @@
-#name {
+/* #name {
     background : none;
-    float:left;
     font-size: 24px;
     margin-right: 5%;
-    text-align:left;
     width:45%;
     margin-left: 221px;
     max-width: 240px;
     background-color: cadetblue;
-    text-align: center;
+    text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 19px;
+    padding: 26px;
     margin-bottom: 0%;
     color: white;
     font-weight: 700;
+} */
+
+#topnav{
+    width: 100%;
+}
+
+.navbar{
+    color: grey;
+    height: 85px;
+    width: 100%;
+    position: absolute;
 }
 
 nav{
     background-color:white;
     border-bottom: solid 1px #cccccc;
-    padding: 11px;
-    margin-bottom: 0%;
+    padding-bottom: 15px;
+    /* margin-bottom: 0%; */
     z-index: 4;
 }
 
-#barnav{
-    margin-right: 22px;
-    color: grey;
-    padding: 17px;
-}
 
 .AboutMe{
     color: #4aaaa5;
@@ -47,13 +51,13 @@ nav{
 }
 
 .container {
-    width: 100%;
     max-width: 960px;
     margin: 0 auto;
     clear: both;
     background-color: #ffffff;
     margin-left: 120px;
     border: solid 1px #cccccc;
+    margin-top: 15px;
   }
 
   .bodytext{
@@ -61,11 +65,13 @@ nav{
     background-color: #ffffff;
     margin-left: 120px;
     border: solid 1px #cccccc;
+    margin-right: 120px;
   }
 
+
+
   p{
-      margin-right: 15px;
-      margin-left: 15px;
+      margin: 0 auto;
   }
 
   #biopic{
@@ -78,45 +84,50 @@ padding-top: 15px;
   background-color: #ffffff;
   border: solid 1px #cccccc;
   padding-bottom: 15px;
+  max-width: 960px;
   }
 
   .prime{
       padding-top: 20px;
   }
 
-.card-style{
+.cardpic{
+    max-height: 240px;
+}
+
+.card-title{
+    background-color: #4aaaa5;
+    height: 20%;
+    margin-top: 70%;
     background-color: #4aaaa5;
     color: white;
     font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    margin: 0;
-}
-
-.cardpic{
-    max-height: 240px;
 }
 
 .cardpic2{
-    height: 240px;
+    height:240px;
 }
 
-  footer {
-    padding: 30px 0;
-    clear: both;
-    font-size: 12px;
-    color: #ffffff;
-    color: #cccccc;
-    text-align: center;
-    background: #666666;
-    border-top: 8px solid #4aaaa5;
-    height: 50px;
+footer{
+        padding: 30px 0;
+        clear: both;
+        font-size: 12px;
+        color: #cccccc;
+        text-align: center;
+        background: #666666;
+        border-top: 8px solid #4aaaa5;
+        height: 50px;
+        width: 100%;
+        position: absolute;
   }
   #border{
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     display: inline;
     margin-top: 8px;
+    width: 1300px;
   }
 
   #line-break{
@@ -130,7 +141,7 @@ padding-top: 15px;
   }
 
   .btn{
-      padding: 1px;
+      padding: 3px;
   }
 
   body {
@@ -139,4 +150,7 @@ padding-top: 15px;
     line-height: 34px;
     color: #777777;
     background: url("images/gravel.png");
+    width: 100%;
+    padding-right: 200px;
   }
+
